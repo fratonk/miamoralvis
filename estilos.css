@@ -1,0 +1,67 @@
+*{
+    padding:0px;
+    margin:10px;
+}
+
+#container {
+    width:100%;
+    overflow:hidden;
+}
+
+
+/*
+menú animado
+*/
+
+header{
+    margin:0 auto;
+}
+
+
+header li{
+    position:relative;
+    display:block;
+    float:left;
+}
+
+.tapa {
+    position: absolute;
+    top: 0px;
+    display:block;
+    background-color:rgba(0, 0, 0, 0.45);
+    
+    padding:15px;
+    
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+    visibility: hidden;
+}
+
+.ancha{
+    height: 350px;
+    width:400px;
+}
+
+.estrecha{
+    height: 350px;
+    width:215px;
+}
+
+/*
+
+*/
+
+
+
+footer{
+    width:100%;
+    text-align:center;
+    background-color:#3b3c4e;
+    color:#fff;
+    height:50px;
+    line-height:25px;
+    position:fixed;
+    bottom:0px;
+}
+
